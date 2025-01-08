@@ -1,0 +1,95 @@
+#header{
+    display: flex;
+    align-items: center;
+    justify-content:flex-end;
+    padding: 20px 80px;
+    background-color: rgb(252, 162, 180);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.06);
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+#navbar{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+#navbar li{
+    list-style:none;
+    padding:0 20px;
+    position: relative;
+}
+#navbar li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+
+#navbar li a.active::after,
+#navbar li a:hover::after{
+    content: "";
+    width: 30%;
+    height: 2px;
+    background-color:rgb(15, 15, 15) ;
+    position:absolute;
+    bottom:-4px;
+    left:20px;
+}
+#home{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    padding:50px 100px;
+    padding-top: 60px;
+}
+.fe{
+    text-align: center;
+}
+h2{
+    font-size: 25px;
+}
+h1{
+    font-size: 30px;
+}
+
+#about{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    padding:50px 100px;
+    padding-top: 200px;
+    padding-bottom: 100px;
+}
+.abo {
+    flex: 1; /* Distribute equal space among child elements */
+    margin-right: 20px; /* Add some spacing between elements */
+}
+
+.abo h1, .abo h3 {
+    max-width: 100%; /* Allow text to wrap within its container */
+}
+
+.abo img {
+    height:220px;
+    max-width: 100%; /* Ensure images don't exceed their container's width */
+    margin-left: 130px;
+}
+
+
+#contact h1{
+    text-align: center;
+}
+#contact{
+    padding:50px 100px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
