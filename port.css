@@ -74,7 +74,7 @@ h1{
     margin-right: 20px; /* Add some spacing between elements */
 }
 
-.abo h1, .abo h3 {
+.abo h3 {
     max-width: 100%; /* Allow text to wrap within its container */
 }
 
@@ -84,12 +84,73 @@ h1{
     margin-left: 130px;
 }
 
+#Skill h1{
+    text-align: center;
+}
+#Skill{
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.skill{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding:40px 80px;
+
+}
+.sk{
+    width:180px;
+    text-align:left;
+    padding: 25px 15px;
+    box-shadow: 20px 20px 34px rgba(1,1,1,0.5);
+    border:1px solid #a1d3a8;
+    border-radius:4px;
+    margin:15px 0;
+}
+.sk:hover{
+    box-shadow: 10px 10px 54px rgb(19, 18, 31);
+}
+
+#project h1{
+    text-align: center;
+}
+#project{
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.proj{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    padding:50px 100px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+.pro {
+    flex: 1; /* Distribute equal space among child elements */
+    margin-right: 20px; /* Add some spacing between elements */
+}
+
+.pro h2, .pro h3 {
+    max-width: 100%; /* Allow text to wrap within its container */
+}
+
+.pro img {
+    height:220px;
+    max-width: 100%; /* Ensure images don't exceed their container's width */
+    margin-left: 220px;
+}
 
 #contact h1{
     text-align: center;
 }
 #contact{
+    background-color: rgb(252, 162, 180);
     padding:50px 100px;
-    padding-top: 100px;
+    padding-top: 30px;
     padding-bottom: 50px;
 }
