@@ -1,3 +1,6 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
 #header{
     display: flex;
     align-items: center;
@@ -40,17 +43,24 @@
     bottom:-4px;
     left:20px;
 }
-#home{
-    display:flex;
-    flex-direction:row;
-    align-items:center;
-    justify-content:space-between;
+#home {
+    display: flex;
+    flex-direction: row; /* Change to row to place items side by side */
+    align-items: center; /* Center items vertically */
+    justify-content: center; /* Add spacing between items if needed */
     flex-wrap: wrap;
-    padding:50px 100px;
+    padding: 50px 100px;
     padding-top: 60px;
+    gap: 20px; /* Optional: Adds space between items */
 }
-.fe{
-    text-align: center;
+.fe {
+    flex: 1; /* Allows items to take equal width */
+    text-align: center; /* Centers text inside the content div */
+}
+.fe img {
+    height: 500px;
+    border-radius: 200px;
+    margin: 0; /* Remove margin for better alignment */
 }
 h2{
     font-size: 25px;
